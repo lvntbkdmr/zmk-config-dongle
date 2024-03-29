@@ -12,6 +12,18 @@ config ZMK_USB
 config ZMK_USB_BOOT
     default y
 
+config ZMK_HID_REPORT_TYPE_HKRO
+    default n
+
+config ZMK_HID_REPORT_TYPE_NKRO
+    default n
+        
+config ZMK_HID_CONSUMER_REPORT_USAGES_FULL
+    default n
+
+config ZMK_HID_CONSUMER_REPORT_USAGES_BASIC
+    default y
+
 endif
 
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT || SHIELD_CORNE_DONGLE || SHIELD_CORNE_PERIPHERAL_LEFT
