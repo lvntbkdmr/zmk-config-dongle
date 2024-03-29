@@ -9,7 +9,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_USB
     default y
 
-config ZMK_ZMK_USB_BOOT
+config ZMK_USB_BOOT
     default y
 
 endif
