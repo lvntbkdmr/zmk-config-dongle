@@ -1,13 +1,13 @@
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_left nice_view_adapter nice_view
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_right nice_view_adapter nice_view
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
 
     # Add custom dongle and a peripheral left corne
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: corne_dongle
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_peripheral_left nice_view_adapter nice_view
