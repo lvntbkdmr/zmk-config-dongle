@@ -6,7 +6,12 @@ include:
   - board: nice_nano
     shield: settings_reset
 
-    # Add custom dongle and a peripheral left corne
+  # Reset artifact for the XIAO BLE dongle. Flash this before corne_dongle
+  # when split peripherals stop pairing with the dongle.
+  - board: xiao_ble
+    shield: settings_reset
+
+  # Add custom dongle and a peripheral left corne.
   - board: xiao_ble
     shield: corne_dongle
   - board: nice_nano
